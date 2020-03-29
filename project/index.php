@@ -1,10 +1,10 @@
 <?php 
     $conn = mysqli_connect(
-        '15.164.99.189',
-        'root',
-        'asdf',
+        'docker-mysql-test.cbd4hhyozn6z.ap-northeast-2.rds.amazonaws.com',
+        'user',
+        'password123',
         'dockerdb',
-        '9876'
+        '3306'
     );
     if(mysqli_connect_errno()){
         echo "failed to connect to MYSQL: ".mysqli_connect.error();
