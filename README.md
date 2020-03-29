@@ -1,12 +1,12 @@
 # docker-practice
 ## install
-<prev
+<pre
 cd /home
 git clone https://github.com/jinhyo/docker-practice.git
 cd docker-practice
-/prev>
+/pre>
 
-## start
+### start
 <pre
 docker login
 docker pull sosilion/docker-test
